@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <math.h>
+#include <math.h>//biblioteca específica
 
-#define PI 3.14159
+#define PI 3.14159//usadado para definior uma váriavel
 
 int main(){
 	double area, raio;
