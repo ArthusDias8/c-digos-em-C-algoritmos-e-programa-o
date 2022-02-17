@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define Média 9.5
 
 double main (){
 	double a, b, x;
@@ -9,7 +10,7 @@ double main (){
 	x = (a + b)/2;
 	printf("X = %.3lf", x);
 	
-	if (x >= 9.5)
+	if (x >= média)
 	printf("Parabens, aprovado!");
 	else printf("Reprovado");
 	
